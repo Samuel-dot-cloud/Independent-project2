@@ -1,9 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems, options);
-});
-var detail = document.document.getElementById("birthday").innerHTML = d;
-var detail = new Date();
-detail.setDate(1);
-detail.setFullYear(2001);
-detail.setMonth(5);
+var male = ['Kwasi', "Kwadwo", "Kawbena", 'Kwaku', 'Yaw', "Kofi", "Kwame"];
+var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+var week = ["Sunday", "Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
