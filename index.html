@@ -9,7 +9,6 @@
 </head>
 
 <body>
-<div style="background-image" url
     <div class="container">
         <div class="jumbotron">
             <h1>The horological masterpiece.</h1>
@@ -37,6 +36,7 @@
                 <p>You are requested to answer these questions truthfully to the best of your ability.</p>
                 <div class="input-field col s12">
                     <select name="gender" id="gender">
+                        
  <option>- GENDER -</option>
  <option value="male">Male</option>
  <option value="female">Female</option>
@@ -44,8 +44,16 @@
                     <button type="button" id="button" onclick="action()">
 press
 </button>
+                    <label for="year"> year</label>
+                    <input type="number" id="year" placeholder="year" minlength="4" maxlength="4" step="1" required>
+                    <label for="month">Month</label>
+                    <input type="number" id="month" placeholder="month" minlength="1" maxlength="2" required>
+                    <label for="day">Day</label>
+                    <input type="number" id="day" placeholder="day" minlength="1" maxlength="2" required>
+                    <button type="button" id="button" onclick="action()">
+press</button>
                 </div>
-               
+
             </div>
         </div>
         <div class="card">
@@ -99,16 +107,16 @@ press
 
             </div>
             <ul>
-             <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-              <details>
-            <summary>Copyright 2020-2025</summary>
-            <p>- by Sam Inc. All Rights Reserved.</p>
-            <p>All content and graphics on this web site are the property of Sam Corporation.
-            </p>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <details>
+                <summary>Copyright 2020-2025</summary>
+                <p>- by Sam Inc. All Rights Reserved.</p>
+                <p>All content and graphics on this web site are the property of Sam Corporation.
+                </p>
         </div>
 </body>
 

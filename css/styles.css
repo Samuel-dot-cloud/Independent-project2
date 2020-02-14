@@ -1,4 +1,10 @@
 body {
- background-image: url(images/gettyimages-503451533-170667a.jpg);
- background-color: #cccccc;
+    background-image: url(/home/samuel/Documents/week-2/project2/images/gettyimages-503451533-170667a.jpg);
+    background-color: #ecf3f3;
+}
+
+.li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+    font-style: italic;
 }
