@@ -35,12 +35,14 @@
             <div class="card-body">
                 <p>You are requested to answer these questions truthfully to the best of your ability.</p>
                 <div class="input-field col s12">
-                    <select>
-                        <option value="" disabled selected>Choose your option.</option>
-                        <option value="1">Male.</option>
-                        <option value="2">Female.</option>
-                    </select>
-                    <label>Gender.</label>
+                   <select name="gender" id="gender">
+ <option>- GENDER -</option>
+ <option value="male">Male</option>
+ <option value="female">Female</option>
+</select>
+<button type="button" id="button" onclick="action()">
+press
+</button>
                 </div>
                 <form>
                     <label for="birthday">Birthday:</label>
