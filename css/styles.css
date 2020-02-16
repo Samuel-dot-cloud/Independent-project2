@@ -1,6 +1,7 @@
 body {
-    background-image: url(/home/samuel/Documents/week-2/project2/images/gettyimages-503451533-170667a.jpg);
-    background-color: #ecf3f3;
+    background-repeat: no-repeat;
+    background-image: url(/home/samuel/Documents/week-2/project2/images/download.jpg);
+    background-color: white;
 }
 
 .li {
@@ -8,3 +9,26 @@ body {
     color: maroon;
     font-style: italic;
 }
+@media screen and (min-width: 480px) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-repeat: no-repeat;
+        background-image: url(/home/samuel/Documents/week-2/project2/images/download.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
