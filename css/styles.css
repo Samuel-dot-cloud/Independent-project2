@@ -16,8 +16,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
-    color: black;
+    color: orange;
     height: 200%;
+    background-position: center;
 }
 
 .column {
@@ -28,4 +29,12 @@ body {
     width: 50%;
     padding: 5px;
 }
-
+#response {
+    text-align: center;
+    display: none;
+    color: maroon;
+}
+#response {
+    text-align: center;
+    color: brown;
+}

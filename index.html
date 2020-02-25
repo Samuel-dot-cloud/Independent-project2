@@ -35,18 +35,43 @@
 
 
         <p>You are requested to answer these questions truthfully to the best of your ability.</p>
-        <h4>GENDER.</h4>
-        <select class="form-control" id="beverage">
-        <option>Male.</option>
-        <option>Female.</option>
-      </select>
-        <br><br><br>
-        <h4>BIRTHDAY.</h4>
-        <div class="datefield">
-            <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="BIRTHDAY-month"></span>
-            <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="BIRTHDAY-day"></span>
-            <span class="subfield yearfield"><input class="birthday" type="text" pattern="[0-9]*" value="" placeholder="YY" size="4" maxlength="4" name="BIRTHDAY[year]" id="BIRTHDAY-year"></span>
-            <span class="small-meta nowrap">( mm / dd / yy )</span>
+        <form>
+            <div class="form row">
+                <div class="form-group col-md-12">
+                    <div class="form-group">
+                        <label for="YY">Year:</label><input type="number" id="Year" class="year form-control" placeholder="Year of birth " required>
+                    </div>
+                </div>
+            </div>
+            <select name="month" id="Month">
+                  <option value="0">  MONTH </option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select><br>
+
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <div class="">
+                        <label for="DD">Day:</label>
+                        <input type="number" id="Day" class="form-control" placeholder="Date of birth" max="31" width="100%" required>
+                    </div>
+                    <div class="gender">
+                        <input id="Male" type="radio" name="gender" required>Male.
+                        <input id="Female" type="radio" name="gender" required>Female.
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <button class="btn btn-outline-warning" type="button" onclick="assignment()">submit</button>&nbsp;
+        </form>
         </div>
 
 
@@ -56,53 +81,54 @@
 
 
 
-    </div>
-    </div>
 
-    <div class="row ">
-        <div class="column">
-
-
-
-
-
-
-            <h2>Male Akan Names.</h2>
-
-            <p>The following are male Akan names:</p>
-            <ul>
-                <li>Sunday:Kwasi</li>
-                <li>Monday:Kwadwo</li>
-                <li>Tuesday:Kwabena</li>
-                <li>Wednesday:Kwaku</li>
-                <li>Thursday:Yaw</li>
-                <li>Friday:Kofi</li>
-                <li>Saturday:Kwame</li>
-            </ul>
-            <a href="https://www.google.com/search?q=male+akan+names&oq=male+akan+names&aqs=chrome..69i57j0l2.9626j0j7&sourceid=chrome&ie=UTF-8 " class="btn btn-primary ">More info!!</a>
         </div>
-    
+        </div>
+
+        <div class="row ">
+            <div class="column">
 
 
-    <div class="column">
 
-        <h2>Female Akan Names.</h2>
 
-    
-    <p>The following are female Akan names.</p>
-    <ul>
-        <li>Sunday:Akosua</li>
-        <li>Monday:Adwoa</li>
-        <li>Tuesday:Abena</li>
-        <li>Wednesday:Akua</li>
-        <li>Thursday:Yaa</li>
-        <li>Friday:Afua</li>
-        <li>Saturday:Ama</li>
-    </ul>
-    <a href="https://www.google.com/search?safe=active&ei=hWZGXpXBMN2bjLsPxpaK4AY&q=female+akan+names&oq=female+akan+names&gs_l=psy-ab.3..0j0i8i67j0i30j0i8i30l3.1230698.1234829..1235545...0.3..0.331.2308.2-9j1......0....1..gws-wiz.......0i71j0i7i30j0i8i7i30j0i67.dEHkmrYgyR4&ved=0ahUKEwjVl_zO29DnAhXdDWMBHUaLAmwQ4dUDCAs&uact=5 "
-        class="btn btn-primary ">More info!!</a>
-    </div>
-    </div>
+
+
+                <h2>Male Akan Names.</h2>
+
+                <p>The following are male Akan names:</p>
+                <ul>
+                    <li>Sunday:Kwasi</li>
+                    <li>Monday:Kwadwo</li>
+                    <li>Tuesday:Kwabena</li>
+                    <li>Wednesday:Kwaku</li>
+                    <li>Thursday:Yaw</li>
+                    <li>Friday:Kofi</li>
+                    <li>Saturday:Kwame</li>
+                </ul>
+                <a href="https://www.google.com/search?q=male+akan+names&oq=male+akan+names&aqs=chrome..69i57j0l2.9626j0j7&sourceid=chrome&ie=UTF-8 " class="btn btn-primary ">More info!!</a>
+            </div>
+
+
+
+            <div class="column">
+
+                <h2>Female Akan Names.</h2>
+
+
+                <p>The following are female Akan names.</p>
+                <ul>
+                    <li>Sunday:Akosua</li>
+                    <li>Monday:Adwoa</li>
+                    <li>Tuesday:Abena</li>
+                    <li>Wednesday:Akua</li>
+                    <li>Thursday:Yaa</li>
+                    <li>Friday:Afua</li>
+                    <li>Saturday:Ama</li>
+                </ul>
+                <a href="https://www.google.com/search?safe=active&ei=hWZGXpXBMN2bjLsPxpaK4AY&q=female+akan+names&oq=female+akan+names&gs_l=psy-ab.3..0j0i8i67j0i30j0i8i30l3.1230698.1234829..1235545...0.3..0.331.2308.2-9j1......0....1..gws-wiz.......0i71j0i7i30j0i8i7i30j0i67.dEHkmrYgyR4&ved=0ahUKEwjVl_zO29DnAhXdDWMBHUaLAmwQ4dUDCAs&uact=5 "
+                    class="btn btn-primary ">More info!!</a>
+            </div>
+        </div>
     </div>
 
 
@@ -117,7 +143,7 @@
         <li><a href="#about ">About</a></li>
     </ul>
     <details>
-        <summary>Copyright 2020-2025</summary>
+        <summary>Copyright 2020-present</summary>
         <p>- by Sam Inc. All Rights Reserved.</p>
         <p>All content and graphics on this web site are the property of Sam Corporation.
         </p>
