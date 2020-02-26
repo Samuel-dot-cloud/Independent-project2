@@ -1,5 +1,5 @@
 # PROJECT NAME.
-The project is titled "The Horological Master". It is basically a  website where that information about your special day, your birthday, is revealed to youmore information on how the project works, check out the following link:https://samuel-dot-cloud.github.io/Independe
+The project is titled "The Horological Master". It is basically a  website where that information about your special day, your birthday, is revealed to youmore information on how the project works, check out the following link:https://samuel-dot-cloud.github.io/Independent-project2/.
 ## PROJECT DESCRIPTION.
 The project is basically a webpage that requires you to key in essential information concerning your gender and birthday, after which it alerts you of your assigned Akan name, together wity the actual day that you were born on. The site is able to achieve this through the use of JavaScript.
 ### AUTHOR INFORMATION.
